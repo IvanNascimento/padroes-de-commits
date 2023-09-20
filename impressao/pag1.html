@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <style>
+      body {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inicio -->
+    <div>
+      <h1 id="padr-es-de-commits-">Padrões de commits 📜</h1>
+      <p>
+        De acordo com a documentação do
+        <strong
+          ><a href="https://www.conventionalcommits.org/pt-br"
+            >Conventional Commits</a
+          ></strong
+        >, commits semânticos são uma convenção simples para ser utilizada nas
+        mensagens de commit. Essa convenção define um conjunto de regras para
+        criar um histórico de commit explícito, o que facilita a criação de
+        ferramentas automatizadas.
+      </p>
+      <p>
+        Esses commits auxiliarão você e sua equipe a entenderem de forma
+        facilitada quais alterações foram realizadas no trecho de código que foi
+        commitado.
+      </p>
+      <p>
+        Essa identificação ocorre por meio de uma palavra e emoji que identifica
+        se aquele commit realizado se trata de uma alteração de código,
+        atualização de pacotes, documentação, alteração de visual, teste...
+      </p>
+    </div>
+
+    <br />
+
+    <!-- Descrição -->
+    <div>
+      <h2 id="tipo-e-descri-o-">Tipo e descrição 🦄</h2>
+      <p>
+        O commit semântico possui os elementos estruturais abaixo (tipos), que
+        informam a intenção do seu commit ao utilizador(a) de seu código.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <code>feat</code>- Commits do tipo feat indicam que seu trecho de
+            código está incluindo um <strong>novo recurso</strong> (se relaciona
+            com o MINOR do versionamento semântico).
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>fix</code> - Commits do tipo fix indicam que seu trecho de
+            código commitado está <strong>solucionando um problema</strong> (bug
+            fix), (se relaciona com o PATCH do versionamento semântico).
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>docs</code> - Commits do tipo docs indicam que houveram
+            <strong>mudanças na documentação</strong>, como por exemplo no
+            Readme do seu repositório. (Não inclui alterações em código).
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>test</code> - Commits do tipo test são utilizados quando são
+            realizadas <strong>alterações em testes</strong>, seja criando,
+            alterando ou excluindo testes unitários. (Não inclui alterações em
+            código)
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>build</code> - Commits do tipo build são utilizados quando são
+            realizadas modificações em
+            <strong>arquivos de build e dependências</strong>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>perf</code> - Commits do tipo perf servem para identificar
+            quaisquer alterações de código que estejam relacionadas a
+            <strong>performance</strong>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>style</code> - Commits do tipo style indicam que houveram
+            alterações referentes a <strong>formatações de código</strong>,
+            semicolons, trailing spaces, lint... (Não inclui alterações em
+            código).
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>refactor</code> - Commits do tipo refactor referem-se a
+            mudanças devido a
+            <strong>refatorações que não alterem sua funcionalidade</strong>,
+            como por exemplo, uma alteração no formato como é processada
+            determinada parte da tela, mas que manteve a mesma funcionalidade,
+            ou melhorias de performance devido a um code review.
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>chore</code> - Commits do tipo chore indicam
+            <strong>atualizações de tarefas</strong> de build, configurações de
+            administrador, pacotes... como por exemplo adicionar um pacote no
+            gitignore. (Não inclui alterações em código)
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>ci</code> - Commits do tipo ci indicam mudanças relacionadas a
+            <strong>integração contínua</strong> (<em>continuous integration</em
+            >).
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
