@@ -30,6 +30,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
+- `raw` - Commits to tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
+  
 ## Recomendações 🎉
 
 - Adicione um tipo consistente com o título do conteúdo.
@@ -215,6 +217,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
+   <tr>
+      <td>Dados</td>
+      <td>🗃️ <code>:card_file_box:</code></td>
+      <td><code>raw</code></td>
+    </tr>
   </tbody>
 </table>
 
@@ -236,9 +243,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
+        <code>git commit -m ":books: docs: Atualização do README"</code>
       </td>
-      <td>📚 docs: Atualizaçao do README</td>
+      <td>📚 docs: Atualização do README</td>
     </tr>
     <tr>
       <td>
@@ -248,15 +255,15 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":sparkles: feat: Pagina de login"</code>
+        <code>git commit -m ":sparkles: feat: Página de login"</code>
       </td>
-      <td>✨ feat: Pagina de login</td>
+      <td>✨ feat: Página de login</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bricks: ci: Modificaçao no Dockerfile"</code>
+        <code>git commit -m ":bricks: ci: Modificação no Dockerfile"</code>
       </td>
-      <td>🧱 ci: Modificaçao no Dockerfile</td>
+      <td>🧱 ci: Modificação no Dockerfile</td>
     </tr>
     <tr>
       <td>
@@ -278,9 +285,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":lipstick: feat: Estilizaçao CSS do formulario"</code>
+        <code>git commit -m ":lipstick: feat: Estilização CSS do formulário"</code>
       </td>
-      <td>💄 feat: Estilizaçao CSS do formulario</td>
+      <td>💄 feat: Estilização CSS do formulário</td>
     </tr>
     <tr>
       <td>
@@ -293,6 +300,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
       </td>
       <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bulb: raw: RAW Data do ano aaaa"</code>
+      </td>
+      <td>🗃️ raw: RAW Data do ano aaaa</td>
     </tr>
   </tbody>
 </table>
